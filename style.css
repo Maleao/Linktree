@@ -1,0 +1,90 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap');
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+} 
+
+body{ 
+    background: -webkit-gradient(linear, left bottom, left top, from(#2e2d2d), to(#000000)) fixed;
+}
+
+.center { 
+    max-width: 500px; 
+    margin: 0 auto; 
+    padding: 0 2%;
+} 
+
+section.box1 { 
+    margin-top: 50px;
+} 
+
+.container { 
+    display: flex; 
+    align-items: center; 
+    flex-direction: column;
+} 
+
+.logo { 
+    width: 100%; 
+    max-width: 125px; 
+} 
+
+.logo img { 
+    width: 100%; 
+    border-radius: 50%;
+} 
+
+.desc { 
+    text-align: center; 
+    color: white; 
+    margin: 10px 0; 
+
+} 
+ 
+.desc h2{ 
+    font-weight: normal;
+}
+
+.desc p{ 
+    color: #cac9c9;
+} 
+
+.link { 
+    width: 100%; 
+    text-align: center;
+}
+
+.link a {  
+    color: white; 
+    text-decoration: none;  
+
+} 
+
+.link .link-a { 
+    position: relative; 
+    border-radius: 7px;
+    border: 3px solid white; 
+    padding: 10px; 
+    margin: 17px 0; 
+} 
+
+.link .link-a:hover { 
+    background: white; 
+    color: #000000;
+}
+
+.link .link-a i {
+    position: absolute; 
+    left: 25px; 
+    line-height: 1; 
+    font-size: 23px; 
+    transition: 0.3s;
+} 
+
+.link .link-a h3{ 
+    font-weight: normal;
+}
